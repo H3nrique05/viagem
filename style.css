@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:rgba(205, 215, 199, 1);
+    
+}
+    
+@media screen and (max-width: 400px) {
+    
+    .titulo{
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        height: 100cv;  
+    }
+    .frase{
+        font-size: 48px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        color: white;
+        margin-top: 12%;
+    }
+    .logo {
+        justify-items: start;
+        align-items: start;
+        margin-top: -8%;
+    }
+    .imagemlogo{
+        justify-items: start;
+        align-items: start;
+        width: 430px;
+        height: 100%;
+        background-size: cover;
+        margin-top: 17%;
+       
+    }
+    .entrada{
+        margin-top: 8%;
+        display: grid;
+        justify-content: center;
+        gap: 10px;
+    }
+    .email {
+        background-color: #ffffff;
+        padding: 120px;
+        border: 2px solid #cccccc;
+        border-radius: 10px;
+      }
+      
+      input[type="email"],
+      input[type="password"] {        
+        text-align: initial;
+        background-color: #ffffff;
+        width: 320px;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #cccccc;
+        border-radius: 15px;
+      } 
+      .login{
+        display: flex;
+        justify-content: center;
+        gap: 35px;
+        font-size: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 10%;
+      }
+      .loggoogle{
+        border: none;
+      }
+      .cadast{
+        border: none;
+      }
+            
+
+
+}
