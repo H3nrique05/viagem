@@ -73,7 +73,19 @@
       .cadast{
         border: none;
       }
-            
+      .logodash {
+        position: relative;
+       /* width: 200px;
+        height: 200px;*/
+        transform: rotate(-30deg);
+    }
+
+    .imagemlogodash {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0.5;
+    }            
 
 
 }

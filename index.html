@@ -8,6 +8,19 @@
     
     <link rel="stylesheet" type="text/css" href="style.css">
 
+    <script>
+        function atualizarTextoBotao() {
+            var emailInput = document.getElementById('email');
+            var cadastrarButton = document.getElementById('cadast');
+
+            if (emailInput.value.length > 0) {
+                cadastrarButton.innerHTML = 'Entrar';
+            } else {
+                cadastrarButton.innerHTML = 'Cadastrar';
+            }
+        }
+    </script>
+
 </head>
 <body>
 
@@ -23,7 +36,7 @@
 
     <div class="entrada">
           
-          <input type="email" id="email" name="email" placeholder="E-mail">
+          <input type="email" id="email" name="email" placeholder="E-mail" oninput="atualizarTextoBotao()">
       
           <input type="senha" id="senha" name="senha" placeholder="Senha">
     
@@ -33,7 +46,7 @@
 
         <button class="loggoogle" > Login Google</button>
             <p>|</p>
-        <button class="cadast"> Cadastrar </button>
+       <a href="dash.html"> <button class="cadast" id="cadast"> Cadastrar </button></a>
 
      </div>
 
