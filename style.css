@@ -50,7 +50,7 @@
       }
       
       input[type="email"],
-      input[type="password"] {        
+      input[type="senha"] {        
         text-align: initial;
         background-color: #ffffff;
         width: 320px;
